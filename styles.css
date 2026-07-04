@@ -35,7 +35,7 @@ header{ display:flex; align-items:center; justify-content:space-between; gap:16p
   background:var(--amber); clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
 .brand{ display:flex; align-items:center; gap:14px; }
-.brand-logo{ height:44px; width:auto; display:block; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.55)); }
+.brand-logo{ height:20px; width:auto; display:block; filter: drop-shadow(0 2px 5px rgba(0,0,0,0.55)); }
 .brand-text{ display:flex; flex-direction:column; gap:2px; }
 .brand h1{
   font-family:'Bebas Neue', sans-serif;
