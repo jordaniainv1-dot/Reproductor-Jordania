@@ -21,14 +21,23 @@
   ============================================================
 */
 
-window.FIREBASE_CONFIG = {
-  apiKey: "PEGA_AQUI_TU_API_KEY",
-  authDomain: "PEGA_AQUI_TU_PROYECTO.firebaseapp.com",
-  projectId: "PEGA_AQUI_TU_PROYECTO",
-  storageBucket: "PEGA_AQUI_TU_PROYECTO.appspot.com",
-  messagingSenderId: "PEGA_AQUI_TU_SENDER_ID",
-  appId: "PEGA_AQUI_TU_APP_ID"
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD_txrS3JN_heKGUB7kxwNXexoWYlE0R6k",
+  authDomain: "reproductor-de-jordania.firebaseapp.com",
+  projectId: "reproductor-de-jordania",
+  storageBucket: "reproductor-de-jordania.firebasestorage.app",
+  messagingSenderId: "798069373236",
+  appId: "1:798069373236:web:c3d7e743165e53e1764d61"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 /*
   PIN del panel de control (opcional).
