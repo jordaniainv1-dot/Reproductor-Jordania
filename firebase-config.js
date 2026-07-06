@@ -34,4 +34,4 @@ window.CONTROL_PIN = "1234";
   5. Pega esa clave abajo. Es buena práctica restringirla a tu dominio
      (jordaniainv1-dot.github.io) en "Restricciones de la API" → "Referentes HTTP"
 */
-window.YOUTUBE_API_KEY = "AIzaSyD_txrS3JN_heKGUB7kxwNXexoWYlE0R6k";
+window.YOUTUBE_API_KEY = "AIzaSyAGGfa1wTVHDj7Hg6BMzuv244mkGSuuc8M";
